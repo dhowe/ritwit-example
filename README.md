@@ -2,6 +2,8 @@
 
 A RiTa twitter-bot example 
 
+&nbsp;
+
 ### Installing
 
 1. Clone this repository
