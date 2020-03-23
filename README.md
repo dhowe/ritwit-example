@@ -1,8 +1,8 @@
-# ritwit-example
+# RiTwit example
 
 A RiTa twitter-bot example 
 
-# Installing
+### Installing
 
 1. Clone this repository
 
