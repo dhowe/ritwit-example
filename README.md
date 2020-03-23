@@ -18,9 +18,9 @@ $ cd ritwit-example
 $ npm install
 ```
 
-3. Add your twitter keys to the config.js file
+3. Add your twitter keys to the [config.js](https://github.com/dhowe/ritwit-example/blob/master/config.js) file
 
-4. Run the code in index.js
+4. Run the code in [index.js](https://github.com/dhowe/ritwit-example/blob/master/index.js)
 
 ```shell
 $ node index.js
