@@ -26,5 +26,5 @@ $ npm install
 $ node index.js
 ```
 
-5. Check your twitter-bot's page for your tweet
+5. Verify that your tweets appear on your bot's Twitter page
 
