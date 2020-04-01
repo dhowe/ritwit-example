@@ -19,7 +19,8 @@ let rt = new RiTwit(config);
 
 function tweetGrammar() {
     let result = rg.expand().replace(/\s*%\s*/g, '\n');
-    rt.tweet(result); 
+    console.log(result);
+    //rt.tweet(result); // uncomment to tweet
 }
 
 // repeat tweetGrammar every 20 seconds
