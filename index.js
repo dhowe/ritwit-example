@@ -1,10 +1,9 @@
 let RiTa = require('rita');
 let RiTwit = require('ritwit');
 let config = require('./config');
-
 let RiGrammar = RiTa.RiGrammar;
 
-let grammar = {
+let grammar = { 
     "<start>": "<5-line> % <7-line> % <5-line>",
     "<5-line>": "<1> <4> |<1> <3> <1> |<1> <1> <3> | <1> <2> <2> | <1> <2> <1> <1> | <1> <1> <2> <1> | <1> <1> <1> <2> | <1> <1> <1> <1> <1> | <2> <3> | <2> <2> <1> | <2> <1> <2> | <2> <1> <1> <1> | <3> <2> | <3> <1> <1> | <4> <1> | <5>",
     "<7-line>": "<1> <1> <5-line> | <2> <5-line> | <5-line> <1> <1> | <5-line> <2>",
@@ -23,6 +22,6 @@ function tweetGrammar() {
     rt.tweet(result); 
 }
 
-// repeat tweetGrammar every 3 seconds
-setInterval(tweetGrammar, 3000);
+// repeat tweetGrammar every 20 seconds
+setInterval(tweetGrammar, 20000);
 
