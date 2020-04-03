@@ -20,7 +20,7 @@ $ npm install
 
 3. Using the editor of your choice, add your twitter keys to [config.js](https://github.com/dhowe/ritwit-example/blob/master/config.js) 
 
-4. Run the code in [index.js](https://github.com/dhowe/ritwit-example/blob/master/index.js)
+4. Whne you are ready to tweet, uncomment line 23 in [index.js](https://github.com/dhowe/ritwit-example/blob/master/index.js) and run it:
 
 ```shell
 $ node index.js
