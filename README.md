@@ -1,6 +1,6 @@
 # RiTwit example
 
-A RiTa twitter-bot example 
+A RiTa twitter-bot example using a context-free grammar
 
 &nbsp;
 
